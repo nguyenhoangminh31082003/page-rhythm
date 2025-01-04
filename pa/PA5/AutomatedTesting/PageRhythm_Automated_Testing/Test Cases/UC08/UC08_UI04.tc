@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reply to a comment</description>
+   <name>UC08_UI04</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90a0a8d7-d105-4dc6-a9b0-d1fe92811a51</testCaseGuid>
+</TestCaseEntity>
