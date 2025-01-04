@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Learn Flask I</name>
+   <tag></tag>
+   <elementGuidId>a7b7977f-9fc8-4a69-a354-c8fc65ca992f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-page']/div[3]/div[3]/div/div[2]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Learn Flask I&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>35183575-ea27-4bb0-9921-337471c4ea3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Learn Flask I</value>
+      <webElementGuid>d495ae89-0e1e-4c2b-83f7-39f0e9878e19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-page&quot;)/div[@class=&quot;home-page-book-list&quot;]/div[@class=&quot;home-page-book-list-item&quot;]/div[@class=&quot;home-page-book-title&quot;]/div[@class=&quot;home-page-book-info&quot;]/h3[1]</value>
+      <webElementGuid>40c5accd-f16e-4708-97cf-bc543c8ef602</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-page']/div[3]/div[3]/div/div[2]/h3</value>
+      <webElementGuid>caaa7af6-310b-4eb2-9d0f-33a38ad87387</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programming'])[3]/following::h3[1]</value>
+      <webElementGuid>6c67e951-ab34-48a6-a07b-f168cf175d9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn Flask III'])[1]/following::h3[1]</value>
+      <webElementGuid>3c20d898-dd70-42f9-afd2-b6ea785f8758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programming'])[4]/preceding::h3[1]</value>
+      <webElementGuid>29d3e16d-4063-4554-a347-743143bb7162</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The book that should be read'])[1]/preceding::h3[1]</value>
+      <webElementGuid>96d89226-ec30-40ec-ae52-0e47e9db2789</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Learn Flask I']/parent::*</value>
+      <webElementGuid>96bea9a3-cb8b-4095-a0a7-67145f20422f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/h3</value>
+      <webElementGuid>129d311c-8376-4a01-b780-763ad00e0e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Learn Flask I' or . = 'Learn Flask I')]</value>
+      <webElementGuid>0b9e6326-7ada-4c44-8c84-d8d6da2ef291</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
