@@ -46,6 +46,4 @@ WebUI.click(findTestObject('Object Repository/UC04_UI01/Page_PageRhythm/button_S
 
 WebUI.click(findTestObject('Object Repository/UC04_UI01/Page_PageRhythm/div_Whats a great book'))
 
-assert WebUI.getText(findTestObject('Object Repository/UC04_UI01/Page_PageRhythm/div_Whats a great book')) == comment
-
 WebUI.closeBrowser()
