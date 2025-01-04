@@ -24,92 +24,8 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://page-rhythm-front-end.onrender.com/')
 
 
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info'), 'n')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1'), 'ng')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2'), 'ngu')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3'),
-    'nguy')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4'),
-    'nguye')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5'),
-    'nguyen')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6'),
-    'nguyenv')
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7'),
-    'nguyenva')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8'),
-    'nguyenvan')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9'),
-    'nguyenvanm')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10'),
-    'nguyenvanmu')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11'),
-    'nguyenvanmuo')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12'),
-    'nguyenvanmuoi')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13'),
-    'nguyenvanmuoi@')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14'),
-    'nguyenvanmuoi@g')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15'),
-    'nguyenvanmuoi@gm')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16'),
-    'nguyenvanmuoi@gma')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17'),
-    'nguyenvanmuoi@gmai')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18'),
-    'nguyenvanmuoi@gmail')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19'),
-    'nguyenvanmuoi@gmail.')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20'),
-    'nguyenvanmuoi@gmail.c')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21'),
-    'nguyenvanmuoi@gmail.co')
-
-
-WebUI.setText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_landing-page-input-info_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22'),
-    'nguyenvanmuoi@gmail.com')
-
+String email = 'nguyenvanmuoi@gmail.com'
+WebUI.setText(findTestObject('Object Repository/UC08_UI04/Page_PageRhythm/input_Login to continue_landing-page-input-info'), email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_PageRhythm/input_Login to continue_password-input'), '8SQVv/p9jVTqW8DV17zZxg==')
 
@@ -124,3 +40,5 @@ WebUI.click(findTestObject('Object Repository/Page_PageRhythm/button_Read This B
 
 
 WebUI.click(findTestObject('Object Repository/Page_PageRhythm/img_Page 1  2 of 3_read-book-page-navigation-icon'))
+
+WebUI.closeBrowser()

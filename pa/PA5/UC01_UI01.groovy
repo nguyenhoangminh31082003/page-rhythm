@@ -63,3 +63,5 @@ WebUI.click(findTestObject('Object Repository/Page_PageRhythm/button_Sign up'))
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PageRhythm/a_My Library'), 10)
 
 WebUI.click(findTestObject('Object Repository/Page_PageRhythm/a_My Library'))
+
+WebUI.closeBrowser()
