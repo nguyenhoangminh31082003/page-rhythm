@@ -1,8 +1,20 @@
 # CS300 Project - PageRhythm
 
-The application is accessible via the following [URL](https://page-rhythm-front-end.onrender.com/).
+## Overview
 
-Additionally, the application can also be run locally by following these instructions:
+- PageRhythm is a web application that allows users to read books and listen to audiobooks generated with customized voices.
+
+  ![Login Screenshot](./images/login_page.png)
+
+## Features
+
+- Browse and read books directly in the browser.
+- Listen to books with dynamically generated, customizable voices.
+- Clean, user-friendly interface for seamless reading and listening.
+
+## Locall Run
+
+The application can also be run locally by following these instructions:
 
 1. The back-end component can be started by executing the `app.py` file, with the root directory located at the `page-rhythm/src/BackEnd/PageRhythm` path.
 
